@@ -6,8 +6,7 @@ app = FastAPI(title ="test123ree4")
 origins = [
         "http://localhost",
         "http://localhost:3000",
-        "http://tiksiproducts47.ru",
-        "https://tiksiproducts47.ru"
+        "http://217.107.34.97:3000",
     ]
 app.add_middleware(
         CORSMiddleware,
