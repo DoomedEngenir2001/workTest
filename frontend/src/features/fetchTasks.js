@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const serverUrl = "http://localhost:8000/get_tasks";
+const serverUrl = "http://217.107.34.97:8000/get_tasks";
 
 export const fetchTasks = createAsyncThunk('tasks/fetchTasks', 
     async (_, { rejectWithValue }) => {
